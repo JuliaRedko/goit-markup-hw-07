@@ -1,0 +1,109 @@
+
+/* -----MEDIA (MIN-WIDTH: 480PX)----- */
+
+@media screen and (min-width: 480px) {
+    .conteiner {
+        width: 428px;
+    }
+}
+
+
+/* -----MEDIA (MIN-WIDTH: 768PX)----- */
+
+@media screen and (min-width: 768px) {
+    .conteiner {
+        width: 768px;
+    }
+
+    .header-nav {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-link:hover,
+    .header-link:focus {
+        color: var(--acsent-color);
+    }
+    
+    .header-link.current {
+        color: var(--acsent-color);
+    }
+    
+    .address-list {
+        display: block;
+        margin-left: auto;
+    }
+    
+    .header-address {
+        display: block;
+        align-items: center;
+        gap: 40px;
+        margin-left: auto;
+    }
+    
+    .address-link {
+        margin-left: auto;
+    }
+    
+    .address {
+        font-style: normal;
+        color: var(--body-text-color);
+        margin-left: auto;
+        transition-property: color;
+        transition-duration: var(--transition-main);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .address:hover,
+    .address:focus {
+        color: var(--acsent-color);
+    }
+
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/bghero-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/bghero-tab-2x.jpg);
+                    }
+                }
+
+    .hero-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        margin-bottom: 36px;
+    }
+}
+
+
+/* -----MEDIA (MIN-WIDTH: 1158PX)----- */
+
+@media screen and (min-width: 1158px) {
+    .conteiner {
+        width: 1158px;
+    }
+
+    
+    .hero {
+        padding-top: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/bghero.jpg);
+    }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                    url(../images/bghero-2x.jpg);
+            }
+        }
+}
+
