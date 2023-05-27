@@ -5,6 +5,7 @@
     .conteiner {
         width: 428px;
     }
+
 }
 
 
@@ -74,14 +75,31 @@
                     }
                 }
 
+                @media screen and (min-width: 768px), (max-width: 1157px) {
+    .conteiner-sm {
+        width:552px;
+                }
+            }
+
     .hero-title {
         max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         margin-bottom: 36px;
     }
-}
 
+    .team-list {
+        /* display: flex;
+        text-align: center;
+        justify-content: center; */
+        gap: var(--basic-gap);
+        
+    }
+
+    .team-item {
+        width: calc((100% - 24px) / 2);
+}
+}
 
 /* -----MEDIA (MIN-WIDTH: 1158PX)----- */
 
@@ -104,5 +122,14 @@
                     url(../images/bghero-2x.jpg);
             }
         }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
 }
 
+}

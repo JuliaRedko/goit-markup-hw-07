@@ -144,6 +144,10 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
   
+  .mobile-nav {
+    margin-bottom: 284px;
+  }
+
   .mobile-nav-list:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -160,6 +164,7 @@ body {
   .mobile-menu-open-icon {
     stroke: var(--title-text-color);
   }
+
   .mobile-nav-link {
     color: var(--title-text-color);
     font-weight: 700;
@@ -180,7 +185,6 @@ body {
     line-height: 1.11;
     text-transform: capitalize;
     text-decoration: none;
-    margin-top: 284px;
   }
   
   .mobile-nav-phone-link:hover,
@@ -405,11 +409,13 @@ body {
 
 .team {
     background-color: var(--cloud-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
-.team .conteiner {}
+.conteiner-sm {
+    width: 294px;
+}
 
 .team-title {
     margin-bottom: 72px;
@@ -420,16 +426,19 @@ body {
 }
 
 .team-list {
+    width: 100%;
     display: flex;
-    gap: var(--basic-gap);
+    flex-wrap: wrap;
     text-align: center;
 }
 
 .team-item {
     background: var(--white-text-color);
-    width: calc((100% - 72px) / 4);
+    width: 100%; 
+    margin-bottom: 72px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+
 }
 
 .team-sizes {
