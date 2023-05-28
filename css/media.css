@@ -75,11 +75,21 @@
                     }
                 }
 
-                @media screen and (min-width: 768px), (max-width: 1157px) {
-    .conteiner-sm {
-        width:552px;
-                }
-            }
+    @media screen and (min-width: 768px), (max-width: 1157px) {
+    
+    .conteiner-features {
+        width: 766px; 
+    }
+
+    .feature>.feature-list {
+        flex-basis: calc(100% / 2);
+    }
+    
+    .conteiner-sm,
+    .conteiner-customers {
+        width: 582px;
+     }
+    }
 
     .hero-title {
         max-width: 496px;
@@ -98,6 +108,14 @@
 
     .team-item {
         width: calc((100% - 24px) / 2);
+}
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        column-gap: 24px;
+        row-gap: 72px;
 }
 }
 
@@ -123,7 +141,65 @@
             }
         }
 
-    .team {
+        .conteiner-features {
+            width: 1158px;
+        }
+
+        .feature-icon {
+            display: flex;
+            height: 112px;
+            background-color: var(--cloud-color);
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            margin-bottom: var(--basic-margin-text);
+            gap: var(--basic-gap);
+        }
+
+        .feature-icom-list {
+           
+        }
+
+
+        .features {
+            padding: 120px 0;
+        }
+
+        .feature {
+            display: flex;
+        }
+
+        .feature>.feature-list {
+            flex-basis: calc((100% - 72px) / 4);
+            gap: var(--basic-gap);
+        }
+
+        .functions {
+            padding-bottom: 120px;
+        }
+        
+        .functions-list {
+            display: flex;
+            gap: var(--basic-gap);
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .functions .title {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 72px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.1;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--title-text-color);
+        }
+
+    .team,
+    .section-customers {
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -131,5 +207,11 @@
     .team-item {
         width: calc((100% - 72px) / 4);
 }
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--basic-gap);
 
 }
