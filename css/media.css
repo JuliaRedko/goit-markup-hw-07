@@ -6,6 +6,10 @@
         width: 428px;
     }
 
+    /* @media screen and(mix-width: 767.8px) {
+        .header-nav,
+    .address-link {
+        display: none; */
 }
 
 

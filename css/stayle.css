@@ -99,11 +99,7 @@ body {
     margin-right: auto;
 }
 
-.header-nav,
-.address-link {
-    display: none;
-  
-}
+
 
 .header-menu .logo {
     font-family: 'Raleway';
@@ -140,6 +136,18 @@ body {
     transition: opacity var(--transition-main);
   }
 
+/* .header-nav,
+.address-link {
+    display: none;
+} */
+
+@media screen and(min-width: 767.8px) {
+    .header-nav,
+    .address-link {
+        display: none;
+    }
+    
+}
   .close-modal {
     display: block;
     margin-left: auto;
@@ -625,7 +633,11 @@ body {
 
 /* Footer form */
 
-@media screen (max-width: 767.8px) {
+@media screen and(max-width: 767.8px) {
+    
+  
+}
+
     .footer-form {
         /* display: flex; */
         /* margin-left: 80px; */
