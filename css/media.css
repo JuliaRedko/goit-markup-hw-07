@@ -90,6 +90,18 @@
         width: 582px;
      }
     }
+    
+    @media screen and (min-width: 768px) {
+        .mobile-menu-open {
+            display: none;
+        }
+
+        .address-list {
+            display: flex;
+            align-items: center;
+
+        }
+    }
 
     .hero-title {
         max-width: 496px;
@@ -117,6 +129,8 @@
         column-gap: 24px;
         row-gap: 72px;
 }
+      
+
 }
 
 /* -----MEDIA (MIN-WIDTH: 1158PX)----- */
@@ -167,6 +181,7 @@
 
         .feature {
             display: flex;
+            gap: 24px;
         }
 
         .feature>.feature-list {
