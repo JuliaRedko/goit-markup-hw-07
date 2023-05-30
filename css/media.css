@@ -251,7 +251,7 @@
 @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        .hero {
+    .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/bghero-tab-2x.jpg);
                     }
@@ -259,9 +259,9 @@
 
 @media screen and (min-width: 768px), (max-width: 1157px) {
     
-    .conteiner-features {
+    /* .conteiner-features {
         /* width: 766px;  */
-    }
+   */
 
     .feature>.feature-list {
         flex-basis: calc(100% / 2);
@@ -273,10 +273,16 @@
     .conteiner {
         width: 1158px;
     }
+
+    .header-address {
+        display: flex;
+    }
+
     .address-link {
         display: inline-flex;
         margin-left: 40px;
     }
+
     .hero {
         padding-top: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -284,7 +290,7 @@
     }
 
     .conteiner-features {
-        width: 1158px;
+        min-width: 1158px;
     }
 
     .feature-icon {
@@ -303,6 +309,7 @@
     }
 
     .feature {
+        width: 1158px;
         display: flex;
         gap: 24px;
     }
@@ -317,6 +324,7 @@
     }
     
     .functions-list {
+        min-width: 1158px;
         display: flex;
         gap: var(--basic-gap);
         max-width: 100%;
