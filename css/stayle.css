@@ -114,9 +114,6 @@ body {
     color: var(--title-text-color);
 }
 
-.header-item {}
-
-
 .mobile-menu {
     position: fixed;
     width: 100%;
@@ -282,8 +279,6 @@ body {
     }
 }
 
-.hero-conteiner {}
-
 .hero-title {
     max-width: 320px;
     font-weight: 700;
@@ -378,13 +373,10 @@ body {
 }
 
 .feature .text {
-    width: ;
     color: var(--body-text-color);
 }
 
 /* Section 2 */
-
-.functions {}
 
 .functions-list,
 .title-functions {
@@ -476,8 +468,6 @@ body {
     padding-bottom: 96px;
 }
 
-.conteiner {}
-
 .title-customers {
     margin-bottom: 72px;
     font-weight: 700;
@@ -533,8 +523,6 @@ body {
     padding-bottom: 100px;
 }
 
-.conteiner-footer-logo {}
-
 .footer-container {
     flex-wrap: wrap;
     text-align: center;
@@ -586,8 +574,6 @@ body {
     gap: 16px;
 }
 
-.social-footer-item {}
-
 .social-footer-link {
     display: flex;
     justify-content: center;
@@ -624,9 +610,6 @@ body {
     margin-left: 0;
     margin-bottom: 16px;
 }
-
-.footer-form-field {}
-
 
 .footer-form-input {
     width: 100%;
@@ -693,16 +676,12 @@ body {
     padding-bottom: 120px;
 }
 
-.conteiner-filters {}
-
 .filters-list {
     display: flex;
     justify-content: center;
     gap: var(--basic-gap);
     margin-bottom: 72px;
 }
-
-.filters-item-btn {}
 
 .text-btn {
     font-family: inherit;
@@ -897,8 +876,6 @@ body {
     text-align: center;
     margin-bottom: 16px;
 }
-
-.modal-form {}
 
 .form-label {
     display: block;
