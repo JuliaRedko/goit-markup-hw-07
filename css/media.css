@@ -1,15 +1,25 @@
 
-/* -----MEDIA (MIN-WIDTH: 480PX)----- */
+/* -----MEDIA (MIN-WIDTH: 428PX)----- */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
     .conteiner {
         max-width: 428px;
         margin-left: auto;
         margin-right: auto;
     }
+  
+   
+    .conteiner-footer-logo,
+    .social-media-footer {
+        margin-bottom: 72px;
+    }
 
+    .subscribe-submit {
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
 
 /* -----MEDIA (MIN-WIDTH: 768PX)----- */
 
