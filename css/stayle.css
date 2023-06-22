@@ -26,13 +26,15 @@ p {
 }
 
 ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -48,6 +50,7 @@ body {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list {
@@ -113,7 +116,7 @@ body {
 .logo-second {
     color: var(--title-text-color);
 }
-
+      /* Mobile menu */
 .mobile-menu {
     position: fixed;
     width: 100%;
@@ -360,6 +363,7 @@ body {
 }
 
 .feature>.feature-list {
+    display: block;
     max-width: 396px;
 }
 
