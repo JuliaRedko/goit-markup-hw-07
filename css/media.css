@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 768px) {
     .conteiner {
-        width: 768px;
+        max-width: 768px;
     }
 
     .header-nav {
@@ -116,6 +116,7 @@
     .team-item {
         width: calc((100% - 24px) / 2);
     }
+
     .footer-cm {
         width: 526;
     }
@@ -174,14 +175,6 @@
         width: 552px;
         display: flex;
         align-items: center;
-
-    }
-
-    .hero-title {
-        max-width: 496px;
-        font-size: 56px;
-        line-height: 1.07;
-        margin-bottom: 36px;
     }
 
     .team-list {
@@ -189,7 +182,6 @@
         text-align: center;
         justify-content: center; 
         gap: var(--basic-gap);
-
     }
 
     .team-item {
@@ -288,7 +280,7 @@
     }
 
     .conteiner-features {
-        min-width: 1158px;
+        min-width: 1128px;
     }
 
     .feature-icon {
