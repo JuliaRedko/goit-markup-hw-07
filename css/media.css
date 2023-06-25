@@ -100,6 +100,9 @@
         margin-bottom: 36px;
     }
 
+    .feature {
+        column-gap: 24px;
+    }
     .feature>.feature-list {
         flex-basis: calc((100% - 24px) / 2);
         max-width: 356px;
@@ -145,7 +148,7 @@
     }
 
     .footer-form-field {
-        margin: 0 auto;
+        margin-left: 0;
     }
 
     .footer-form-title {
@@ -199,10 +202,6 @@
         align-items: baseline;
         column-gap: 24px;
         row-gap: 72px;
-    }
-
-    .footer-form {
-        display: flex;
     }
 
     .conteiner-footer-logo {
@@ -387,8 +386,10 @@
     .footer-container {
         width: 1128px;
         display: flex;
-        justify-content: center;
-        align-content: center;
+}
+
+.conteiner-footer-logo {
+    margin: 0;
 }
 
 .footer-text {
@@ -397,6 +398,12 @@
 
 .social-media-footer {
     margin-left: 120px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.footer-form-field {
+ margin-right: 0;
 }
 
 .social-title {
@@ -408,13 +415,7 @@
     justify-content: center;
     gap: 16px;
 }
-
-/* .conteiner-footer-logo {
-    margin-bottom: 120px; */
 }
-
-.footer-form-field {
-    margin-right: 73px;
 
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -423,5 +424,4 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../images/bghero-2x.jpg);
     }
-}
 }
