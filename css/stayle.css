@@ -64,6 +64,7 @@ body {
 /* Header */
 
 .header-link {
+    diaplay: block;
     color: var(--title-text-color);
     font-weight: 500;
     padding: 24px 0;
@@ -78,7 +79,7 @@ body {
     background: var(--acsent-color);
     border-radius: 2px;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
 }
 
